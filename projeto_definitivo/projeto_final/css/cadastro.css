@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+ 
+   
+}
+
+
+.container {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    width: 450px;
+
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.container input {
+ 
+    padding: 10px 0;
+    font-size: 16px;
+    color: #ff0000;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    background: transparent;
+}
+
+
+.container label {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #0b0b0b;
+    pointer-events: none;
+    transition: .5s;
+}
+
+h2 {
+    color: #ff0000;
+    text-align: center;
+}
+
+.container .cadastro {
+    position: relative;
+}
+
+.container label {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #0b0b0b;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.container .cadastro input:focus~label,
+.container .cadastro input:valid~label {
+
+    top: -15px;
+    left: 0;
+    color: #000000;
+    font-size: 10px;
+}
+
+.container  .botao  {
+
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ff0000;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 5px;
+
+}
+
+ .container .botao:hover {
+
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgb(255, 199, 199),
+        0 0 25px rgb(255, 199, 199),
+        0 0 50px rgb(255, 199, 199),
+        0 0 100px rgb(255, 199, 199);
+
+}
+
+img{
+
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    position: relative;
+    left:  35%;
+    top: 15px;;
+
+}
+
+
+
+
+

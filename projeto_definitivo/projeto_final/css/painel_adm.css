@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container  {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 570px;
+    height: 220px;
+     padding: 10px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    text-align: center;
+  
+}
+
+.container a {
+
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+
+}
+
+
+.container a:hover  {
+    color: #ff0000;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+     'Lucida Sans', Arial, sans-serif;
+}
+
+
+img{
+
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    position: relative;
+    left: 33%;
+    top: 15px;;
+
+}
+
+
+
+
